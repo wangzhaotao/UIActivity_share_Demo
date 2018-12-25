@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "BCSocialShareTool.h"
 
 @interface ViewController ()
+- (IBAction)shareButtonAction:(UIButton *)sender;
 
 @end
 
@@ -16,8 +18,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //
+    
+    
 }
 
 
+- (IBAction)shareButtonAction:(UIButton *)sender {
+    
+    NSString *localPath = [[NSBundle mainBundle]pathForResource:@"test" ofType:@"MP4"];
+    //这里URL是用[NSURL fileURLWithPath:localPath];
+    [[[BCSocialShareTool alloc]init]shareWithTitle:nil description:nil url:localPath image:nil completionHandler:^(UIActivityType  _Nullable activityType, BOOL completed) {
+    }];
+}
 @end

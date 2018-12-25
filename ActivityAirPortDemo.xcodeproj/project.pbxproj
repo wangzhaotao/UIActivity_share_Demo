@@ -15,6 +15,10 @@
 		8E9243E521D21C4B0033091F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9243E421D21C4B0033091F /* main.m */; };
 		8E9243EF21D21C4B0033091F /* ActivityAirPortDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9243EE21D21C4B0033091F /* ActivityAirPortDemoTests.m */; };
 		8E9243FA21D21C4B0033091F /* ActivityAirPortDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9243F921D21C4B0033091F /* ActivityAirPortDemoUITests.m */; };
+		8E92440B21D21C9A0033091F /* BCMailTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E92440721D21C9A0033091F /* BCMailTool.m */; };
+		8E92440C21D21C9A0033091F /* BCSocialShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E92440821D21C9A0033091F /* BCSocialShareTool.m */; };
+		8E92440F21D21CF00033091F /* BCPHAidPref.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E92440D21D21CF00033091F /* BCPHAidPref.m */; };
+		8E92441121D2217D0033091F /* test.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E92441021D2217D0033091F /* test.MP4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		8E9243F521D21C4B0033091F /* ActivityAirPortDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityAirPortDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9243F921D21C4B0033091F /* ActivityAirPortDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityAirPortDemoUITests.m; sourceTree = "<group>"; };
 		8E9243FB21D21C4B0033091F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E92440721D21C9A0033091F /* BCMailTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCMailTool.m; sourceTree = "<group>"; };
+		8E92440821D21C9A0033091F /* BCSocialShareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSocialShareTool.m; sourceTree = "<group>"; };
+		8E92440921D21C9A0033091F /* BCSocialShareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSocialShareTool.h; sourceTree = "<group>"; };
+		8E92440A21D21C9A0033091F /* BCMailTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCMailTool.h; sourceTree = "<group>"; };
+		8E92440D21D21CF00033091F /* BCPHAidPref.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCPHAidPref.m; sourceTree = "<group>"; };
+		8E92440E21D21CF00033091F /* BCPHAidPref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCPHAidPref.h; sourceTree = "<group>"; };
+		8E92441021D2217D0033091F /* test.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.MP4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +117,13 @@
 				8E9243D821D21C490033091F /* ViewController.h */,
 				8E9243D921D21C490033091F /* ViewController.m */,
 				8E9243DB21D21C490033091F /* Main.storyboard */,
+				8E92440921D21C9A0033091F /* BCSocialShareTool.h */,
+				8E92440821D21C9A0033091F /* BCSocialShareTool.m */,
+				8E92440A21D21C9A0033091F /* BCMailTool.h */,
+				8E92440721D21C9A0033091F /* BCMailTool.m */,
+				8E92440E21D21CF00033091F /* BCPHAidPref.h */,
+				8E92440D21D21CF00033091F /* BCPHAidPref.m */,
+				8E92441021D2217D0033091F /* test.MP4 */,
 				8E9243DE21D21C4B0033091F /* Assets.xcassets */,
 				8E9243E021D21C4B0033091F /* LaunchScreen.storyboard */,
 				8E9243E321D21C4B0033091F /* Info.plist */,
@@ -238,6 +256,7 @@
 				8E9243E221D21C4B0033091F /* LaunchScreen.storyboard in Resources */,
 				8E9243DF21D21C4B0033091F /* Assets.xcassets in Resources */,
 				8E9243DD21D21C490033091F /* Main.storyboard in Resources */,
+				8E92441121D2217D0033091F /* test.MP4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E9243DA21D21C490033091F /* ViewController.m in Sources */,
+				8E92440C21D21C9A0033091F /* BCSocialShareTool.m in Sources */,
+				8E92440B21D21C9A0033091F /* BCMailTool.m in Sources */,
 				8E9243E521D21C4B0033091F /* main.m in Sources */,
+				8E92440F21D21CF00033091F /* BCPHAidPref.m in Sources */,
 				8E9243D721D21C490033091F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNS9QEVKGH;
 				INFOPLIST_FILE = ActivityAirPortDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNS9QEVKGH;
 				INFOPLIST_FILE = ActivityAirPortDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
