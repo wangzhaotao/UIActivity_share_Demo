@@ -19,8 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //
-    
-    
+    NSString *localPath = [[NSBundle mainBundle]pathForResource:@"test" ofType:@"MP4"];
+    NSURL *urlPath1 = [NSURL fileURLWithPath:localPath];
+    NSURL *urlPath2 = [NSURL URLWithString:localPath];
+    NSLog(@"localPath=%@", localPath);
+    NSLog(@"urlPath1=%@", urlPath1);
+    NSLog(@"urlPath2=%@", urlPath2);
 }
 
 
